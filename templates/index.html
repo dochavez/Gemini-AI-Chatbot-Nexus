@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative AI for Virtual Worlds</title>
+    <link rel="stylesheet" href="{{url_for('.static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Bienvenidos a la IA Pinolera</h1>
+    <form action="/generate-world" method="POST">
+        <div id="prompt-container">
+            <label for="prompt">Ingrese su consulta:</label>
+            <textarea id="prompt" name="txt-promp" rows="5"></textarea>
+            <button type="submit" id="submit-button">Preguntar a la IA</button>
+        </div>
+    </form>
+    <div id="response-container">
+        <h2>Respuesta de la IA:</h2>
+        <pre id="response-text">{{ geminianswer }}</pre>
+        <button id="play-audio-button">Reproducir audio</button>
+    </div>
+
+    <!-- Agregamos un elemento de audio oculto -->
+    <audio id="response-audio" style="display: none;"></audio>
+
+    <script>
+        document.getElementById("play-audio-button").addEventListener("click", function() {
+            // Obtenemos el texto de la respuesta de la IA
+            var responseText = document.getElementById("response-text").innerText;
+
+            // Creamos una solicitud POST para obtener el audio de la respuesta
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/generate-audio", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Convertimos la respuesta del servidor a un objeto JSON
+                    var responseData = JSON.parse(xhr.responseText);
+                    
+                    // Obtenemos el contenido de audio desde la respuesta
+                    var audioContent = responseData.audio_content;
+
+                    // Creamos un Blob desde el contenido de audio
+                    var blob = new Blob([audioContent], { type: "audio/mp3" });
+
+                    // Creamos una URL de objeto para el Blob
+                    var url = URL.createObjectURL(blob);
+
+                    // Configuramos el elemento de audio para reproducir el audio
+                    var audioElement = document.getElementById("response-audio");
+                    audioElement.src = url;
+
+                    // Reproducimos el audio
+                    audioElement.play();
+                }
+            };
+
+            // Enviamos la solicitud con el texto de la respuesta de la IA
+            xhr.send(JSON.stringify({ text: responseText }));
+        });
+    </script>
+</body>
+</html>
+
+
