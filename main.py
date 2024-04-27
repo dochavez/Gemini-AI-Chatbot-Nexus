@@ -6,32 +6,33 @@ import io
 
 app = Flask(__name__)
 
-# Configurar la autenticación para Text-to-Speech
+# Set up authentication for Text-to-Speech
 credentials_path = 'geminiai-text-to-speech.json'
 client = texttospeech.TextToSpeechClient.from_service_account_json(credentials_path)
 
 def generate_audio(text):
-    # Configurar la solicitud de síntesis de voz
+    # Configure the speech synthesis request
     input_text = texttospeech.SynthesisInput(text=text)
-    voice_params = texttospeech.VoiceSelectionParams(language_code="es-ES", name="es-ES-Wavenet-D")
+    voice_params = texttospeech.VoiceSelectionParams(language_code="en-US", name="en-US-Neural2-I")
     audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)
 
-    # Realizar la solicitud a la API de Text-to-Speech
+    # Make the request to the API Text-to-Speech
     response = client.synthesize_speech(input=input_text, voice=voice_params, audio_config=audio_config)
 
-    # Devolver el contenido de audio
+    # Return audio content
     return response.audio_content
 
 @app.route('/generate-world', methods=['POST'])
 def generate_world():
-    # Obtiene la instrucción del usuario del cuerpo de la solicitud JSON
+    # Gets the user statement from the JSON request body
+
     prompt = request.form['txt-promp']
     answer = gemini(prompt)
 
-    # Generar audio para la respuesta de la IA
+    # Generate audio for AI response
     audio_content = generate_audio(answer)
 
-    # Devolver la respuesta y el audio en formato MP3
+    # Return the response and audio in MP3 format
     return render_template('index.html', geminianswer=answer, audio_content=audio_content)
 
 @app.route('/', methods=['GET'])
