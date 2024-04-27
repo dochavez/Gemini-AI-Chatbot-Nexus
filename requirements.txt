@@ -1,3 +1,4 @@
+# Installing some dependencies used for the project
 flask
 requests
 google-generativeai
