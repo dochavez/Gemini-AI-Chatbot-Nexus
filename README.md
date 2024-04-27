@@ -1,6 +1,8 @@
 # Gemini AI Chatbot Nexus Project.
 # Credits: Danny Chavez and [William Caceres](https://github.com/willr30)
 ![Static Badge](https://img.shields.io/badge/python-3.8-blue)
+![Static Badge](https://img.shields.io/badge/flask-3.0-red)
+
 
 
 ### This project was developed to demonstrate how Gemini AI can be used in the development of a Chatbot available to create a web application. 
