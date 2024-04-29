@@ -11,6 +11,10 @@
 ### We also managed to integrate the Gemini AI model to create an application in Flutter and be able to use Chatbots on a smart device that uses Android.
 
 
-### General Diagram of our Project
+
+### General Diagram of Our Project
+![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/General%20Diagram.png)
+
+### Structure of Web Application and Movil Application
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/Gemini%20Diagram%20Design.jpg)
 
