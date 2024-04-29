@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 from google.cloud import texttospeech
-from test import gemini
+from gemini_api_consume import get_gemini_response
 import os
 import io
 
@@ -8,6 +8,8 @@ app = Flask(__name__)
 
 # Set up authentication for Text-to-Speech
 credentials_path = 'geminiai-text-to-speech.json'
+
+
 client = texttospeech.TextToSpeechClient.from_service_account_json(credentials_path)
 
 def generate_audio(text):
@@ -22,12 +24,13 @@ def generate_audio(text):
     # Return audio content
     return response.audio_content
 
+
 @app.route('/generate-world', methods=['POST'])
 def generate_world():
     # Gets the user statement from the JSON request body
 
     prompt = request.form['txt-promp']
-    answer = gemini(prompt)
+    answer = get_gemini_response(prompt)
 
     # Generate audio for AI response
     audio_content = generate_audio(answer)
