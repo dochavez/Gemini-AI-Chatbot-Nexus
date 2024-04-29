@@ -12,6 +12,5 @@
 
 
 ### General Diagram of our Project
-![alt text]([http://url/to/img.png](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/Gemini%20Diagram%20Design.jpg))
-
+![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/Gemini%20Diagram%20Design.jpg)
 
