@@ -22,7 +22,7 @@ python main.py
 
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/WebApplicationGemini.png)
  
-5. Enter your question or comment in the space provided. Click where it says "Ask to AI" and wait for the response from the Gemini model. As simple as that. For example, in our case we input the prompt text: *When humans will live on Mars or Jupiter?* and check the answer below that we got from the AI.
+5. Enter your question or comment in the space provided. Click where it says "Ask to AI" and wait for the response from the Gemini model. As simple as that. For example, in our case we input the prompt text: **When humans will live on Mars or Jupiter?** and check the answer below that we got from the AI.
 
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/Test_WebApplicationGemini.png)
 
