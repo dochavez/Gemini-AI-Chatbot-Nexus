@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "geminiai-devpost-hackathon",
+  "private_key_id": "f48d80e7d51048d032bc2cde3d86415edddab6a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcUWFEDqFCwRgJ\nhB07LiRAPHfaW9dDDFN+9e2rEGPB6ZmimTQHNuFITyTDIE4qK1JAyW5nlahG+v1Q\nA7eQvyboOYd66YSo7euBAJ49HQDqxE6wa97FFm/tp+ShkjsiryK0SoNlglVytaPQ\nlPit2ojROaFHaYpA3mtIDZoXTiUFrBkS0MADM/I5xNz8eCRJHaFT+7YnSVVR6+im\nKdC+Lg5lOSPDpuuScNKIqXrxC+o/nEJi4ictg8JWdazD067E7BvxKTTJXscAdB+z\ncb/5E5AT+d5EK7K7vm6dvTi3rowo8292/DZRme/whKkgcOyFcUFd7j0dDOs3bDzy\nT6/vtGO1AgMBAAECggEADqJHus6r0MtcQWJ5jMAbFgW91Va3u50nIUGgswe2bxbm\nvSQejMuvIiKBTIsfsNmcD632hK1WsvPC9yoB61kZ1AUJZpD/TFlJrNVZUFtWFKRg\nFtViZjey2XWC9TqdXU02sIOGnYrVY7HBg5YOryfq8GYMGoVfiLHJ1VWrUUyNhrma\nVbCliuX9Nn5bKZE6M7LypBeb6zNFnW+a9cNa40+UyaXS0IJ/n17NuMskYJEVESLH\nbcslTc6lveice0i8eZjx/CI/XphpUQeQOyHzgsgSlgqRtnA11L5n04ifa6Nv+kAQ\nwtBfQvh30Hpai2+XdA9Nc9M1JeUtVPzaqeSb2a8JmQKBgQDMlWoO+KwG57mxyUOz\npwfK748GoGrRwuTQOn+udFtY3z2f9TrVMGq3jnnJnXm+a7pxbIObqoDDDSIJzvA6\nrzgYDJWz65RGCrJw+bBI5IxXfPjRX4uJu9hyIdbTzjTVgAMx3j4kSArlSVM7YPwn\nMO6UhgFRiO2LUW8tA+742t8UswKBgQDDmp+qPrUW471EhEZyfG3AvC1DLHEotOQy\nQtgIXOnuotS/GSrZ28n5nRoyaNiCBgPI+5pORkoIaj9QWCwX/xy1Q8i88Zsbc4Im\nyFogO5KnBMcIyizDkRfk3q/xvRltUcky7xEoH6ggrCpSDQg4M3zo2nUEH3HF5YID\nqRaQ0h5p9wKBgBjXk9dZjtoPzVavT89C2wljaYSuegoallpKoDJ44pa6FOuVhZ1Z\nkbvUSymWO7BJuIwJVznRzGzi7V0vibA2kqMo9Ayy8IBI0D4zs5pGVlxRSo1yAqmo\n67GANmvlwDikoL6vc/BH5zrMWpT9Q+EmafITC5nw/JdMPinDLoN9YFVNAoGAfXfT\nbuqmUjZnE2odnhY+eGC8T9hUBZ5yueKynDqtO4trF+FW4UPgfKLPSQKDznN5PhRV\n2Fux5U/xqOHF9uaHTaZbPwdjTOp808+0L/TGjye7W+IDcLbDMuW8yj1X8A2EF43N\n3YTg3YRR6Su+1/3+44YthSV+X0hma16swNxm8eUCgYBhN8c3qbn6o/MF2Ty0I9nY\ngyR0QAd96BMghgl2W04lXYddVJLthMy7j/ius6bTrrW9XaBiR2i4L6azG10sRpd/\nrqO7O0GU3IsyJJCiEOOsHl528J7t3/0SuKKkfI+nvwN+UoMmmWFDeXQmz1HkcQ6X\nMTFx/ypyujB6ejv6BXjaKA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "geminiai-text-to-speech@geminiai-devpost-hackathon.iam.gserviceaccount.com",
+  "client_id": "110164233829124275419",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/geminiai-text-to-speech%40geminiai-devpost-hackathon.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
