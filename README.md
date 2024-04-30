@@ -19,6 +19,9 @@ python main.py
 
 ```
 4. You will notice that two private IP numbers are displayed in the terminal. Click on any of them and a new window will open in your web browser.
+
+![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/WebApplicationGemini.png)
+ 
 5. Enter your question or comment in the space provided. Click where it says "Ask to AI" and wait for the response from the Gemini model. As simple as that.
 
 ## Installation of a Flutter Project Cloned from GitHub
