@@ -7,8 +7,8 @@
 ![Static Badge](https://img.shields.io/badge/GeminiAI-1.5-red)
 ![Static Badge](https://img.shields.io/badge/flutter-3.19-blue)
 
-## This project was developed to demonstrate how Gemini AI can be used in the development of a Chatbot available to create a web application. 
-### We also managed to integrate the Gemini AI model to create an application in Flutter and be able to use Chatbots on a smart device that uses Android.
+## This project was developed to demonstrate how Gemini AI can be used in the development of web applications and mobile applications. 
+### For the web applications can be used by any default browser and for the mobile application, there is an APK available in the repository.
 
 ## How to run the web application version on your computer
 1. Download the repository
@@ -20,6 +20,26 @@ python main.py
 ```
 4. You will notice that two private IP numbers are displayed in the terminal. Click on any of them and a new window will open in your web browser.
 5. Enter your question or comment in the space provided. Click where it says "Ask to AI" and wait for the response from the Gemini model. As simple as that.
+
+## Installation of a Flutter Project Cloned from GitHub
+
+1. *Clone the repository from GitHub*: Open your terminal and navigate to the directory where you want to clone the repository. Then, execute the following command to clone the GitHub repository:
+```
+   git clone https://github.com/dochavez/Gemini-AI-Chatbot-Nexus.git
+```
+3. *Navigate within the project*: Within the main folder, there are 2 folders, navigate to Flutter-project to locate yourself within the project.
+
+4. *Get the project dependencies*: Once inside the project directory, execute the following command to get the dependencies of the Flutter project:
+```  
+   flutter pub get
+```
+7. *Open it in Visual Studio Code*: In the terminal, execute the command:
+```
+    code .
+```
+9. *Run the application*: In Visual Studio Code, you can use your device to run it or the emulator.
+
+10. *Notes*: You must have Flutter SDK installed, refer to the official documentation: https://flutter.dev/docs/get-started/install
 
 ### General Diagram of Our Project
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/General%20Diagram.png)
