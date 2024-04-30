@@ -41,9 +41,9 @@ python main.py
 
 10. *Notes*: You must have Flutter SDK installed, refer to the official documentation: https://flutter.dev/docs/get-started/install
 
-### General Diagram of Our Project
+## General Diagram of Our Project
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/General%20Diagram.png)
 
-### Structure of Web Application and Movil Application
+## Structure of Web Application and Movil Application
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/Gemini%20Diagram%20Design.jpg)
 
