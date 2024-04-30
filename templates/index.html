@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="{{url_for('.static', filename='style.css')}}">
 </head>
 <body>
-    <h1>Gemini-AI-Chatbot-Nexus</h1>
+    <h1>Welcome to Gemini AI Chatbots Nexus Project</h1>
+    <span style="color: blue; font-style: italic;"><h2>To help us provide a better Responsible AI be respectful of the prompt, don't offend anyone</h2></span>
     <form action="/generate-world" method="POST">
         <div id="prompt-container">
-            <label for="prompt">Enter your query:</label>
+            <label for="prompt">Input your text promp:</label>
             <textarea id="prompt" name="txt-promp" rows="5"></textarea>
             <button type="submit" id="submit-button">Ask the AI</button>
         </div>
     </form>
     <div id="response-container">
-        <h2>AI Response:</h2>
+        <h2>Your answer will be displayed below:</h2>
         <pre id="response-text">{{ geminianswer }}</pre>
-        <button id="play-audio-button">Play Audio</button>
+        <!--<button id="play-audio-button">Play Audio</button>-->
+        <a href="https://github.com/dochavez/Documenting-with-Docusaurus-V2.-" target="_blank">Github repo to see how we build this project</a>
+    <br>
+        <a href="https://github.com/dochavez/Documenting-with-Docusaurus-V2.-" target="_blank">Download the APK to install and test on your Android Device</a>
     </div>
 
     <!-- We add a hidden audio element -->
