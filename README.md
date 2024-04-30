@@ -47,6 +47,6 @@ python main.py
 ## Structure of Web Application and Movil Application
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/Gemini%20Diagram%20Design.jpg)
 
-## 6 Great things that you can do with our projects.
+## What you can do with our project?
 ![](https://github.com/dochavez/Gemini-AI-Chatbot-Nexus/blob/master/6%20Great%20Things....png)
 
