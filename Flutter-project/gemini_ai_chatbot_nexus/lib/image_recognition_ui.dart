@@ -43,7 +43,7 @@ class _ImageRecognitionUIState extends State<ImageRecognitionUI> {
   Future<String> consumeGeminiAPI() async {
     final model = GenerativeModel(
         model: 'gemini-pro-vision',
-        apiKey: "AIzaSyCHR2Kr_viIPFDg-jd9hAFKo-ZgM6z7Xmk");
+        apiKey: "API-KEY");
     const prompt =
         "describe the image and if you don't understand it, tell me you don't understand it.";
     final imageBytes = await _imageFile!.readAsBytes();
