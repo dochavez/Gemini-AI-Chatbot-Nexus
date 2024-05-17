@@ -30,7 +30,7 @@ class _ChatScreenState extends State<ChatScreen> {
   Future<String?> consumeGeminiAPI(String chatInput) async {
     ///This is just for text input and output
     final model = GenerativeModel(
-        model: 'gemini-pro', apiKey: "AIzaSyCrpbgAj2Zpq5UsTUxAvVYCu7DsPgsUm6Q");
+        model: 'gemini-pro', apiKey: "API-KEY");
 
     final content = [
       Content.multi([
