@@ -1,5 +1,5 @@
 # Gemini AI Chatbot Nexus Project.[![My Skills](https://skillicons.dev/icons?i=gcp&perline=3)](https://skillicons.dev)
-# Credits: Danny Chávez and [William Cáceres](https://github.com/willr30)
+# Credits: [Danny Chávez](https://github.com/dochavez) and [William Cáceres](https://github.com/willr30)
 ![Static Badge](https://img.shields.io/badge/python-3.8-blue)
 ![Static Badge](https://img.shields.io/badge/flask-3.0-red)
 ![Static Badge](https://img.shields.io/badge/GCP-API-green)
